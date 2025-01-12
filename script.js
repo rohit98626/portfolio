@@ -1,6 +1,4 @@
 
-//ScrollIt JS File
-
 (function($) {
     'use strict';
 
