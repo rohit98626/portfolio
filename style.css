@@ -150,8 +150,8 @@ a, a:hover { text-decoration: none; }
 .home-img::before {
     position: absolute;
     content: '';
-    width: 85%;
-    height: 92%;
+    width: 75%;
+    height: 100%;
     border: 20px solid var(--main-color);
     border-bottom: none;
     top: 50%;
@@ -162,15 +162,15 @@ a, a:hover { text-decoration: none; }
 .home-img::after {
     position: absolute;
     content: '';
-    width: 97%;
+    width: 74%;
     height: 20px;
     background-color: var(--main-color);
-    bottom: 40px;
+    bottom: 1px;
     left: 0;
     z-index: 11;
 }
 
-.home-img img { position: relative; z-index: 5; }
+.home-img img { position: relative; z-index: 5; max-width: 75%;}
 
 .header-social { position: absolute; bottom: 30px; left: 15px; width: 100%; }
     .header-social .header-social-icon { position: relative; }
@@ -612,5 +612,26 @@ a, a:hover { text-decoration: none; }
 
     .profile-photo {
         max-width: 70%; /* Reduce image size on smaller screens */
+    }
+}
+
+/* Responsive Adjustments for Mobile Screens */
+@media (max-width: 991px) {
+    .home-img {
+        width: 70%; /* Adapt to smaller screens */
+    }
+
+    .home-img::before {
+        width: 90%;
+        height: 90%;
+        border-width: 15px; /* Adjust thickness */
+    }
+
+    .home-img::after {
+        height: 15px; /* Reduce the height of the bar */
+    }
+
+    .home-img img {
+        max-width: 250px; /* Reduce the image size for smaller screens */
     }
 }
