@@ -15,8 +15,11 @@ Welcome to my Personal Portfolio, a showcase of my skills, projects, and experie
 🎨 Features
 
 ✅ Fully Responsive – Works seamlessly on all devices
+
 ✅ Smooth Animations – Engaging transitions and effects
+
 ✅ Project Showcase – Highlights my best work
+
 ✅ Contact Section – Easy ways to connect with me
 
 Explore my portfolio to learn more about my expertise and projects! 🚀💡
