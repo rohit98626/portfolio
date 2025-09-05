@@ -400,6 +400,7 @@ section {
 }
 
 .skills-row {
+  text-align: center;
   display: flex;
   flex-wrap: wrap;
   gap: 3rem;
