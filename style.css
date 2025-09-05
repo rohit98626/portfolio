@@ -409,13 +409,14 @@ section {
 
 .skills-column {
   flex: 1 1 22%;
-  min-width: unset;
+  min-width: 22%;
 }
 
 .skills-column .title {
   font-size: 2.4rem;
   color: var(--accent-color);
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 .skills-box {
@@ -424,6 +425,8 @@ section {
   border-radius: 1rem;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(8px);
+  justify-content: space-between;
+  align-items:center ;
 }
 
 .skills-content {
