@@ -403,13 +403,13 @@ section {
   text-align: center;
   display: flex;
   flex-wrap: wrap;
-  gap: 3rem;
+  gap: 2rem;
   justify-content: space-between;
 }
 
 .skills-column {
-  flex: 1;
-  min-width: 320px;
+  flex: 1 1 22%;
+  min-width: unset;
 }
 
 .skills-column .title {
@@ -470,6 +470,18 @@ section {
 @media (max-width: 768px) {
   .skills-row {
       flex-direction: column;
+  }
+}
+
+@media (max-width: 1024px) {
+  .skills-column {
+    flex: 1 1 45%; /* 2 per row on tablets */
+  }
+}
+
+@media (max-width: 600px) {
+  .skills-column {
+    flex: 1 1 100%; /* 1 per row on phones */
   }
 }
 
